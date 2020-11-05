@@ -10,7 +10,6 @@ Beaker
 beautifulsoup4
 bleach
 blis
-btrfsutil
 CacheControl
 catalogue
 certifi
