@@ -130,7 +130,7 @@ testpath
 thinc
 threadpoolctl
 toml
-https://download.pytorch.org/whl/cpu/torch-1.5.0%2Bcpu-cp38-cp38-linux_x86_64.whl
+https://download.pytorch.org/whl/cpu/torch-1.7.0%2Bcpu-cp38-cp38-linux_x86_64.whl
 torchvision
 tornado
 tqdm
