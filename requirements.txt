@@ -6,7 +6,6 @@ attrs
 Augmentor
 backcall
 Beaker
-beautifulsoup4
 bleach
 blis
 CacheControl
@@ -21,7 +20,6 @@ dataclasses
 decorator
 defusedxml
 distlib
-distro
 dj-database-url
 Django
 django-appconf
@@ -115,7 +113,6 @@ scipy
 seaborn
 Send2Trash
 six
-sklearn
 soupsieve
 spacy
 sqlparse
