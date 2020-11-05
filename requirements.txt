@@ -132,7 +132,6 @@ spacy==2.3.2
 sqlparse==0.4.1
 srsly==1.0.2
 sympy==1.6.2
-team==1.0
 terminado==0.9.1
 testpath==0.4.4
 thinc==7.4.1
