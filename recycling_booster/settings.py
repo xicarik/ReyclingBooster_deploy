@@ -138,6 +138,8 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 LEAFLET_CONFIG = {
     'DEFAULT_CENTER': (55.75476846, 37.62346629),
     'DEFAULT_ZOOM': 10,
