@@ -2,7 +2,6 @@ anytree
 appdirs
 argon2-cffi
 asgiref
-astroid
 attrs
 Augmentor
 backcall
@@ -15,7 +14,6 @@ catalogue
 certifi
 cffi
 chardet
-colorama
 contextlib2
 cycler
 cymem
@@ -75,7 +73,6 @@ msgpack
 murmurhash
 nbconvert
 nbformat
-notebook
 numpy
 ordered-set
 packaging
@@ -101,7 +98,6 @@ pycairo
 pycparser
 pycurl
 Pygments
-pylint
 pyparsing
 pyrsistent
 python-dateutil
