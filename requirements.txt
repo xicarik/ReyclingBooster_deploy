@@ -17,7 +17,6 @@ cffi==1.14.3
 chardet==3.0.4
 colorama==0.4.4
 contextlib2==0.6.0.post1
-cupshelpers==1.0
 cycler==0.10.0
 cymem==2.0.4
 dataclasses==0.6
