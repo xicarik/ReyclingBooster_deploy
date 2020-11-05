@@ -17,7 +17,6 @@ cffi
 chardet
 colorama
 contextlib2
-cupshelpers
 cycler
 cymem
 dataclasses
@@ -104,7 +103,6 @@ psycopg2
 ptyprocess
 pycairo
 pycparser
-pycups
 pycurl
 Pygments
 pylint
