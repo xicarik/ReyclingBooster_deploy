@@ -41,7 +41,6 @@ fastcore
 fastprogress
 filelock
 future
-gmpy2
 gunicorn
 html5lib
 idna
