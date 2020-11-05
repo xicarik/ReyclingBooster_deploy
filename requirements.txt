@@ -76,7 +76,6 @@ msgpack
 murmurhash
 nbconvert
 nbformat
-netsnmp-python
 notebook
 numpy
 ordered-set
