@@ -58,7 +58,6 @@ jsonfield
 jsonschema
 kiwisolver
 lazy-object-proxy
-lensfun
 lit
 lockfile
 louis
