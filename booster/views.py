@@ -51,7 +51,11 @@ def register_page(request):
             if try_user:
                 messages.add_message(request, messages.ERROR, 'Пользователь уже существует')
                 return render(request, 'auth/register.html', {})
-            user = User.objects.create_user(username, password=password)
+            try:
+                user = User.objects.create_user(username, password=password)
+            except:
+                messages.add_message(request, messages.ERROR, 'Логин уже используется')
+                return render(request, 'auth/register.html', {})
             user.save()
             login(request, user)
             messages.add_message(request, messages.SUCCESS, 'Успешная регистрация')
@@ -156,7 +160,7 @@ def article_page(request, waste_type):
             new_comment = comment_form.save(commit=False)
             new_comment.waste_type = waste_type
             new_comment.user = request.user
-            new_comment.creation_date = datetime.datetime.now()
+            new_comment.creation_date = datetime.now()
             new_comment.save()
             messages.add_message(request, messages.SUCCESS, 'Комментарий опубликован')
             comments = Comment.objects.filter(waste_type=waste_type)

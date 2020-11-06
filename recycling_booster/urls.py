@@ -18,6 +18,8 @@ from django.urls import path
 from django.conf.urls import url, include
 
 from booster import views
+from django.conf.urls.static import static
+from recycling_booster import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -36,3 +38,6 @@ urlpatterns = [
     path('map/<int:waste_type>/', views.map_page, name='map'),
     path('recognize/', views.recognize_page, name='recognize'),
 ]
+
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATICFILES_DIRS[0])
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
